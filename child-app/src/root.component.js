@@ -1,3 +1,9 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+
+  return (
+    <>
+      <h1>{props.name} is mounted!</h1>;
+    </>
+  )
+
 }
